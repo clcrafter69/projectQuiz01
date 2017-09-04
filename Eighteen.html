@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title>My Example</title>
+<title>Bootstrap Quiz</title>
 
 <!-- Latest compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -7,12 +7,52 @@
  <div class="container-fluid">
 		
 <div class="card">
-<div class="card-header">
-What feature of CSS do we make use of to change the design for different screen sizes? 
+<div class="card-header description">
+ Write a JavaScript constructor that creates objects that represent movies. The object should include a title, director, writer, and a star.</br> Create a bit of JavaScript code that creates a variable and assigns to it a new movie object using your constructor.
 </div>
 <div class="card-body">
-<h4 class="card-title">Answer:</h4>
-<p class="card-text">Media Queries</p>
+<h4 class="card-title">Movie List:</h4>
+<p class="card-text">   
+    <div class="row">
+      <div class="col-md-6">
+        Title:
+        <input type="text" id="movie-title">  </input> 
+       </div>
+      <div class="col-md-6">
+        Director:
+        <input type="text" id="movie-direct"> </input> 
+        </div> 
+    </div>  
+    <div class="row">
+        <div class="col-md-6">
+         Writer:
+        <input type="text" id="writer"> </input> 
+        </div>
+       <div class="col-md-6">
+         Star:
+        <input type="text" id="star"> </input> 
+        </div> 
+     </div>  
+     <p>
+        <input type="button" id="show-button" value="Add"> 
+    </p>
+      <div id="movie-list"></div>
+ </p>
+</div></p>
+     <nav class="center">
+      <ul class="pagination">
+        <li class="page-item">
+          <a href="/Sixteen.html" class="page-link" aria-label="Previous">
+<span aria-hidden="true">&laquo; Previous</span>
+</a>
+ </li>    
+         <li class="page-item"> 
+          <a href="/boot.html" class="page-link" aria-label="Next">
+<span aria-hidden="true">Next &raquo; </span>
+</a>
+        </li>
+      </ul>
+    </nav>
 </div>
 <div class="card-footer">
 
@@ -29,3 +69,4 @@ What feature of CSS do we make use of to change the design for different screen 
 
 <!-- Latest compiled and minified Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="movie.js"></script>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title>My Example</title>
+<title>Bootstrap Quiz</title>
 
 <!-- Latest compiled and minified Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -8,15 +8,48 @@
 		
 <div class="card">
 <div class="card-header">
-What feature of CSS do we make use of to change the design for different screen sizes? 
+Write a function that takes in two numbers as parameters, adds them together, and then returns the result. 
 </div>
 <div class="card-body">
-<h4 class="card-title">Answer:</h4>
-<p class="card-text">Media Queries</p>
+<h4 class="card-title">Addition Calculator:</h4>
+<p class="card-text">  
+   <!-- <h1 class="container"> Addition Calculator</h1> -->
+    <div class="row">
+      <div class="col-md-6">
+        First Number:
+        <input type="text" id="first-no">  </input> 
+      </div>
+      <div class="col-md-6">
+        Second Number:
+        <input type="text" id="second-no"> </input>
+        </div> 
+        </div>    
+    </div> 
+     <p>
+        <input type="button" id="add-button" value="Add"> 
+    </p>
+      <div id="answer">
+    </div>
+ </p>
+      <nav class="center">
+      <ul class="pagination">
+        <li class="page-item">
+          <a href="/Fifteen.html" class="page-link" aria-label="Previous">
+<span aria-hidden="true">&laquo; Previous</span>
+</a>
+ </li>    
+         <li class="page-item"> 
+          <a href="/Eighteen.html" class="page-link" aria-label="Next">
+<span aria-hidden="true">Next &raquo; </span>
+</a>
+        </li>
+      </ul>
+    </nav>
 </div>
 <div class="card-footer">
-
+      
 </div>
+
 </div>
 
 </div>
@@ -29,3 +62,4 @@ What feature of CSS do we make use of to change the design for different screen 
 
 <!-- Latest compiled and minified Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="add.js"></script>

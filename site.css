@@ -6,23 +6,39 @@
  
 } 
 .container-fluid {
-	background:burlywood;
+	/* background:burlywood; */
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;
+    padding-bottom: 50px;
+    margin:auto;
     }
 
     .card {
         max-width: 50rem;
         margin: auto;
+        background-color: lightgoldenrodyellow;
     }
+
+.center{  
+    text-align: center;
+     margin: auto; 
+    /* background-color:white; */
+}
 
 p{
     padding: 10px 10px 10px 10px;
     line-height: 170%;
     margin: 2.5rem;
+    /* text-align: left; */
 }
 
+.description {
+    text-align: left;
+}
+
+.list-group-item{
+    background-color: lightgoldenrodyellow;
+}
 .bs-example {
 	border: 1px solid white;
 	background: #f5f5f5;
@@ -32,7 +48,7 @@ p{
     color: white;
 	}
 #first-column {
-    background-color: whitesmoke;
+    background-color: burlywood;
       padding: 20px 50px 20px 50px;  
     /* margin-left: 2rem; */
      margin:auto; 
@@ -58,7 +74,7 @@ p{
 #navStyle{
     color: whitesmoke;
     background-color: black;
-      margin-bottom: 2.0rem;  
+    margin-bottom: 2.0rem;  
     
 }
 
